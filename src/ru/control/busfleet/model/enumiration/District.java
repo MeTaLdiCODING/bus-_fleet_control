@@ -1,5 +1,5 @@
 package ru.control.busfleet.model.enumiration;
 
-public enum BusFleet {
+public enum District {
     NORTH, CENTRAL, SOUTH
 }
