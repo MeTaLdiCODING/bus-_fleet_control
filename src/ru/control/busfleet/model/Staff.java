@@ -8,7 +8,7 @@ public abstract class Staff {
 
     private  String FullName;
 
-    private byte PhoneNumber;
+    private String PhoneNumber;
 
     private String HireDate;//дат.приема
 
@@ -35,11 +35,11 @@ public abstract class Staff {
         DateOfBirth = dateOfBirth;
     }
 
-    public byte getPhoneNumber() {
+    public String getPhoneNumber() {
         return PhoneNumber;
     }
 
-    public void setPhoneNumber(byte phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         PhoneNumber = phoneNumber;
     }
 

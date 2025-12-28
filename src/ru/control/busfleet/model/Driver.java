@@ -4,15 +4,15 @@ import ru.control.busfleet.model.enumiration.Qualification;
 
 public class Driver extends Staff{
 
-    private byte DriverLicenseNumber;
+    private String DriverLicenseNumber;
 
     private Qualification Driverqualification;
 
-    public byte getDriverLicenseNumber() {
+    public String getDriverLicenseNumber() {
         return DriverLicenseNumber;
     }
 
-    public void setDriverLicenseNumber(byte driverLicenseNumber) {
+    public void setDriverLicenseNumber(String driverLicenseNumber) {
         DriverLicenseNumber = driverLicenseNumber;
     }
 
